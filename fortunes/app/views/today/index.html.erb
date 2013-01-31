@@ -1,0 +1,7 @@
+<% require './lib/omikuji.rb' %>
+<% @omikuji = Omikuji.new %>
+
+<h1>今日の運勢</h1>
+<h2><%= @omikuji.name %> </h2>
+<p>ラッキーカラー： <%= @omikuji.lucky_color %>	</P>
+<p>ラッキーな方角： <%= @omikuji.lucky_direction %>	</P>
